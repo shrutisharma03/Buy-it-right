@@ -1346,7 +1346,7 @@ function showStats() {
 					HTML += " border: 1px solid grey;";
 				}
 
-				HTML += "' onmouseover='showdeed(" + i + ");' onmouseout='hidedeed();'></td><td class='statscellname' " + mortgagetext + ">" + sq.name + housetext + "</td></tr>";
+				HTML += "' onmouseover='showdeed(" + i + ");' onmouseout='hidedeed();'></td><td class='statscellname' " + mortgagetext + ">" + sq.name + "(₹" + sq.price + ")" + housetext + "</td></tr>";
 			}
 		}
 
