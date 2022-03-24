@@ -1786,7 +1786,7 @@ function play() {
 
 	if (p.jail) {
 		$("#landed").show();
-		document.getElementById("landed").innerHTML = "You are in jail.<input type='button' title='Pay $50 fine to get out of jail immediately.' value='Pay $50 fine' onclick='payfifty();' />";
+		document.getElementById("landed").innerHTML = "You are in jail.<input type='button' title='Pay ₹50 fine to get out of jail immediately.' value='Pay $50 fine' onclick='payfifty();' />";
 
 		if (p.communityChestJailCard || p.chanceJailCard) {
 			document.getElementById("landed").innerHTML += "<input type='button' id='gojfbutton' title='Use &quot;Get Out of Jail Free&quot; card.' onclick='useJailCard();' value='Use Card' />";
