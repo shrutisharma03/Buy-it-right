@@ -1,7 +1,8 @@
 body {
-	background: #fbf9fc;
+	/* background: #fbf9fc; */
 	margin: 0px;
 	min-width: 1075px;
+	background-color: rgb(175, 100, 175);
 }
 
 td {
