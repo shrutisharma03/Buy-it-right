@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: plum;
+  /* background-color: plum; */
 }
 
 body {
@@ -99,7 +99,7 @@ body {
 
 }
 .header .header-container .navbar-menu-container li a:hover{
-  color: rgb(112, 99, 185);
+  /* color: rgb(112, 99, 185); */
   transition: all 0.3s ease-in;
 }
 
@@ -176,7 +176,7 @@ body {
     opacity: 1;
     top: 0%;
     z-index: 10;
-    background-color: rgb(112, 99, 185);
+    /* background-color: rgb(112, 99, 185); */
     transition: all 0.5s ease;
 
   }
@@ -215,3 +215,4 @@ body {
     transition: all 0.5s ease;
 
   }
+}
