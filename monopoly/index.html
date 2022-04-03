@@ -227,9 +227,9 @@
 		<div id="player1input" class="player-input" style="color: white">
 			Player 1: <input type="text" id="player1name" title="Player name" maxlength="16" value="Player 1" />
 			<select id="player1color" title="Player color">
-				<option style="color: blue;">Blue</option>
+				<!-- <option style="color: blue;">Blue</option>
 				<option style="color: green;">Green</option>
-				<option style="color: red;">Red</option>
+				<option style="color: red;">Red</option> -->
 				<option selected="selected" style="color: yellow;">Yellow</option>
 			</select>
 		</div>
@@ -238,29 +238,29 @@
 			Player 2: <input type="text" id="player2name" title="Player name" maxlength="16" value="Player 2" />
 			<select id="player2color" title="Player color">
 				<option selected="selected" style="color: blue;">Blue</option>
-				<option style="color: green;">Green</option>
+				<!-- <option style="color: green;">Green</option>
 				<option style="color: red;">Red</option>
-				<option style="color: yellow;">Yellow</option>
+				<option style="color: yellow;">Yellow</option> -->
 			</select>
 		</div>
 
 		<div id="player3input" class="player-input" style="color: white">
 			Player 3: <input type="text" id="player3name" title="Player name" maxlength="16" value="Player 3" />
 			<select id="player3color" title="Player color">
-				<option style="color: blue;">Blue</option>
-				<option style="color: green;">Green</option>
+				<!-- <option style="color: blue;">Blue</option>
+				<option style="color: green;">Green</option> -->
 				<option selected="selected" style="color: red;">Red</option>
-				<option style="color: yellow;">Yellow</option>
+				<!-- <option style="color: yellow;">Yellow</option> -->
 			</select>
 		</div>
 
 		<div id="player4input" class="player-input" style="color: white">
 			Player 4: <input type="text" id="player4name" title="Player name" maxlength="16" value="Player 4" />
 			<select id="player4color" title="Player color">
-				<option style="color: blue;">Blue</option>
+				<!-- <option style="color: blue;">Blue</option> -->
 				<option selected="selected" style="color: green;">Green</option>
-				<option style="color: red;">Red</option>
-				<option style="color: yellow;">Yellow</option>
+				<!-- <option style="color: red;">Red</option>
+				<option style="color: yellow;">Yellow</option> -->
 			</select>
 		</div>
 
@@ -271,60 +271,97 @@
 		
 	</div>
 <!-- </div> -->
-	<div id="control">
-		<table>
-			<tr>
-				<td style="text-align: left; vertical-align: top; border: none;">
-					<div id="menu">
-						<table id="menutable" cellspacing="0">
-							<tr>
-								<td class="menu-item" id="buy-menu-item">
+<div id="control">
+	<table>
+		<tr>
+			<td style="text-align: left; vertical-align: top; border: none;">
+				<div id="menu">
+					<table id="menutable" cellspacing="0">
+						<tr>
+							<td class="menu-item" id="buy-menu-item">
 
-									<a href="javascript:void(0);" title="View alerts and buy the property you landed on.">Buy</a>
-								</td>
-								<td class="menu-item" id="manage-menu-item">
-									<a href="javascript:void(0);" title="View, mortgage, and improve your property. ">Manage</a>
-								</td>
-							</tr>
-						</table>
-					</div>
+								<a href="javascript:void(0);" title="View alerts and buy the property you landed on.">Buy</a>
+							</td>
+							<td class="menu-item" id="manage-menu-item">
 
-					<div id="buy">
-						<div id="alert"></div>
-						<div id="landed"></div>
-					</div>
+								<a href="javascript:void(0);" title="View, mortgage, and improve your property. ">Manage</a>
+							</td>
+							<td class="menu-item" id="trade-menu-item">
 
-					<div id="manage">
-						<div id="option">
-							<div id="buildings" title="Available buildings"></div>
-							<input type="button" value="Buy house" id="buyhousebutton"/>
-							<input type="button" value="Mortgage" id="mortgagebutton" />
-							<input type="button" value="Sell house" id="sellhousebutton"/>
-						</div>
-						<div id="owned"></div>
-					</div>
-				</td>
-				<td style="vertical-align: top; border: none;">
-					<div id="quickstats" style="">
-							<div><span id="pname" >Player 1</span>:</div>
-							<div><span id="pmoney">₹1500</span></div>
-					</div>
-					<div>
-						<div id="die0" title="Die" class="die die-no-img"></div>
-						<div id="die1" title="Die" class="die die-no-img"></div>
-					</div>
+								<a href="javascript:void(0);" title="Exchange property with other players.">Trade</a>
+							</td>
+						</tr>
+					</table>
+				</div>
 
-				</td>
-			</tr><tr>
-				<td colspan="2" style="border: none">
-					<div style="padding-top: 8px;">
-						<input type="button" id="nextbutton" title="Roll the dice and move your token accordingly." value="Roll Dice"/>
-						<input type="button" id="resignbutton" title="If you cannot pay your debt then you must resign from the game." value="Resign" onclick="game.resign();" />
-					</div>
-				</td>
-			</tr>
-		</table>
-	</div>
+				<div id="buy">
+					<div id="alert"></div>
+					<div id="landed"></div>
+				</div>
 
+				<div id="manage">
+					<div id="option">
+						<div id="buildings" title="Available buildings"></div>
+						<input type="button" value="Buy house" id="buyhousebutton"/>
+						<input type="button" value="Mortgage" id="mortgagebutton" />
+						<input type="button" value="Sell house" id="sellhousebutton"/>
+					</div>
+					<div id="owned"></div>
+				</div>
+			</td>
+			<td style="vertical-align: top; border: none;">
+				<div id="quickstats" style="">
+						<div><span id="pname" >Player 1</span>:</div>
+						<div><span id="pmoney">$1500</span></div>
+				</div>
+				<div>
+					<div id="die0" title="Die" class="die die-no-img"></div>
+					<div id="die1" title="Die" class="die die-no-img"></div>
+				</div>
+
+			</td>
+		</tr><tr>
+			<td colspan="2" style="border: none">
+				<div style="padding-top: 8px;">
+					<input type="button" id="nextbutton" title="Roll the dice and move your token accordingly." value="Roll Dice"/>
+					<input type="button" id="resignbutton" title="If you cannot pay your debt then you must resign from the game." value="Resign" onclick="game.resign();" />
+				</div>
+			</td>
+		</tr>
+	</table>
+</div>
+
+<div id="trade">
+	<table style="border-spacing: 3px;">
+		<tr>
+			<td class="trade-cell">
+				<div id="trade-leftp-name"></div>
+			</td>
+			<td class="trade-cell">
+				<div id="trade-rightp-name"></div>
+			</td>
+		</tr>
+		<tr>
+			<td class="trade-cell">
+				$&nbsp;<input id="trade-leftp-money" value="0" title="Enter amount to exchange with the other player." />
+			</td>
+			<td class="trade-cell">
+				$&nbsp;<input id="trade-rightp-money" value="0" title="Enter amount to exchange with the other player." />
+			</td>
+		</tr>
+		<tr>
+			<td id="trade-leftp-property" class="trade-cell"></td>
+			<td id="trade-rightp-property" class="trade-cell"></td>
+		</tr>
+		<tr>
+			<td colspan="2" class="trade-cell">
+				<input type="button" id="proposetradebutton" value="Propose Trade" onclick="game.proposeTrade();" title="Exchange the money and properties that are checked above." />
+				<input type="button" id="canceltradebutton" value="Cancel Trade" onclick='game.cancelTrade();' title="Cancel the trade." />
+				<input type="button" id="accepttradebutton" value="Accept Trade" onclick="game.acceptTrade();" title="Accept the proposed trade." />
+				<input type="button" id="rejecttradebutton" value="Reject Trade" onclick='game.cancelTrade();' title="Reject the proposed trade." />
+			</td>
+		</tr>
+	</table>
+</div>
 	</body>
 </html>
