@@ -12,17 +12,6 @@ body{
 }
 
 #cell20{
-	/* background: linear-gradient(
-	to bottom,
-	#5d9634,
-	#5d9634 50%,
-	#538c2b 50%,
-	#538c2b
-  ); */
-  /* The rectangle in which to repeat. 
-	 It can be fully wide in this case */
-  /* background-size: 10px; */
-
   background: repeating-linear-gradient(
   to right,
   #5e3209,
@@ -106,6 +95,66 @@ body{
 #cell29{
   background: #FFFF00;
   color: black;
+}
+#cell7{
+  background: #fbfbf8;
+  color: black;
+}
+#cell22{
+  background: #fbfbf8;
+  color: black;
+}
+#cell36{
+  background: #fbfbf8;
+  color: black;
+}
+#cell2{
+  background: #fbfbf8;
+  color: black;
+}
+#cell4{
+  background: #fbfbf8;
+  color: black;
+}
+#cell12{
+  background: #fbfbf8;
+  color: black;
+}
+#cell17{
+  background: #fbfbf8;
+  color: black;
+}
+#cell28{
+  background: #fbfbf8;
+  color: black;
+}
+#cell33{
+  background: #fbfbf8;
+  color: black;
+}
+#cell38{
+  background: #fbfbf8;
+  color: black;
+}
+#cell5{
+  background: #0c0c0c;
+  color: white;
+}
+#cell15{
+  background: #0c0c0c;
+  color: white;
+}
+#cell25{
+  background: #0c0c0c;
+  color: white;
+}
+#cell35{
+  background: #0c0c0c;
+  color: white;
+}
+#cell19{
+  background: #FFA500;
+  color: white;
 }
 #cell27{
   background: #FFFF00;

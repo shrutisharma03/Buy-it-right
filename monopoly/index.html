@@ -51,7 +51,7 @@
 			<table id="deed-table">
 				<tr>
 					<td colspan="2">
-						RENT&nbsp;₹<span id="deed-baserent">12</span>.
+						RENT&nbsp;₹<span id="deed-baseprice">12</span>.
 					</td>
 				</tr>
 				<tr>
@@ -211,7 +211,7 @@
 			</table>
 		</div>
 	</div>
-	<!-- <div class="bg"> -->
+
 	<div id="setup">
 		<p style="color: white; font-size: 65px;">Buy It Right!</p>
 		<br><br>
@@ -355,10 +355,10 @@
 		</tr>
 		<tr>
 			<td colspan="2" class="trade-cell">
-				<input type="button" id="proposetradebutton" value="Propose Trade" onclick="game.proposeTrade();" title="Exchange the money and properties that are checked above." />
-				<input type="button" id="canceltradebutton" value="Cancel Trade" onclick='game.cancelTrade();' title="Cancel the trade." />
-				<input type="button" id="accepttradebutton" value="Accept Trade" onclick="game.acceptTrade();" title="Accept the proposed trade." />
-				<input type="button" id="rejecttradebutton" value="Reject Trade" onclick='game.cancelTrade();' title="Reject the proposed trade." />
+				<input type="button" id="tradeoptbtn" value="Propose Trade" onclick="game.proposeTrade();" title="Exchange the money and properties that are checked above." />
+				<input type="button" id="tradecancelbtn" value="Cancel Trade" onclick='game.cancelTrade();' title="Cancel the trade." />
+				<input type="button" id="tradeaccbtn" value="Accept Trade" onclick="game.acceptTrade();" title="Accept the proposed trade." />
+				<input type="button" id="tradecancelbtn" value="Reject Trade" onclick='game.cancelTrade();' title="Reject the proposed trade." />
 			</td>
 		</tr>
 	</table>

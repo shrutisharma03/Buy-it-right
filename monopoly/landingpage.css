@@ -120,12 +120,11 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
- 
-
-
+  text-align: left;
+  color: white;
 }
 .landing-page .landing-page-container .main .main-container h1{
-  font-size: clamp(1.5rem, 4.5vw, 3rem);
+  font-size: clamp(2rem, 4.5vw, 3rem);
 }
 .landing-page .landing-page-container .main .main-container h2{
   font-size: clamp(0.85rem, 1.5vw, 1rem);
@@ -194,7 +193,7 @@ body {
       height: 3px;
       margin: 5px 2px;
       list-style: none;
-      background-color: rgb(240, 255, 255);
+      background-color: rgb(10, 10, 10);
       pointer-events: none;
       transition: all 0.5s ease;
   }
