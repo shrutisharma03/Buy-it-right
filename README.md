@@ -14,4 +14,6 @@ FEATURES OF THE GAME :
 
 PROCESS TO DEPLOY :
 
-1. 
+1. Download the zip folder of the project.
+2. Deploy it on the sites page of netlify.
+3. Deployed Link : https://junihers-group1-buyitright.netlify.app/
