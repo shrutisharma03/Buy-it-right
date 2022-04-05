@@ -18,3 +18,5 @@ PROCESS TO DEPLOY :
 1. Download the zip folder of the project.
 2. Deploy it on the sites page of netlify.
 3. Deployed Link : https://junihers-group1-buyitright.netlify.app/
+
+![about](https://user-images.githubusercontent.com/72298689/161780327-70db728e-a049-40f3-9024-a8c20b8ae1b7.jpg)
