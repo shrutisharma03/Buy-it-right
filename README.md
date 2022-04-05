@@ -19,4 +19,23 @@ PROCESS TO DEPLOY :
 2. Deploy it on the sites page of netlify.
 3. Deployed Link : https://junihers-group1-buyitright.netlify.app/
 
+
+SNIPPETS FROM THE PROJECT:
+
+
 ![about](https://user-images.githubusercontent.com/72298689/161780327-70db728e-a049-40f3-9024-a8c20b8ae1b7.jpg)
+![assets](https://user-images.githubusercontent.com/72298689/161780659-27c24150-7552-4e8b-bc82-8127ad837c8e.jpg)
+![auction](https://user-images.githubusercontent.com/72298689/161780673-1662e274-5078-46a7-9ecc-dc3c0269ba50.jpg)
+![board](https://user-images.githubusercontent.com/72298689/161780679-21be7ed2-e81d-4ba3-8407-5e5970b5d68e.jpg)
+![buy](https://user-images.githubusercontent.com/72298689/161780682-bce11d79-5520-4f0d-99b5-5946668147bb.jpg)
+![chance](https://user-images.githubusercontent.com/72298689/161780685-3813c934-16d4-4b72-a4d7-935e5e664924.jpg)
+![communitychest](https://user-images.githubusercontent.com/72298689/161780692-c2210ec8-3eb4-4712-bbd7-0048388d193f.jpg)
+![homepage](https://user-images.githubusercontent.com/72298689/161780695-f81c72af-99b6-461d-b57c-51fda1f00048.jpg)
+![manage](https://user-images.githubusercontent.com/72298689/161780697-749d443f-782e-4215-a651-dad3e2df946f.jpg)
+![resign](https://user-images.githubusercontent.com/72298689/161780717-e7ae72bb-304f-42d0-b7b8-601adf1c77e9.jpg)
+![rules](https://user-images.githubusercontent.com/72298689/161780720-73f36f19-5d47-4ac1-95a7-e59446681f10.jpg)
+![start](https://user-images.githubusercontent.com/72298689/161780724-ce183d8f-edfd-44cf-b85b-fda41a3e2aa7.jpg)
+![trade](https://user-images.githubusercontent.com/72298689/161780727-09ce69bd-80f4-4034-8086-0ee8528c4798.jpg)
+![about](https://user-images.githubusercontent.com/72298689/161780729-09d90d0c-dad9-4458-a427-aa6a76545396.jpg)
+
+
