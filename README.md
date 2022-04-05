@@ -12,6 +12,7 @@ FEATURES OF THE GAME :
 4. Bank Management - Central Bank Management that manages auctioning of properties and oversees transactions. 
 5. Game Modules - Buying Properties, Mortgaging Properties, Paying Mortgage, Paying Tax, Rolling Dice, Bidding in Auction, Building Property, Paying Rent.
 
+
 PROCESS TO DEPLOY :
 
 1. Download the zip folder of the project.
