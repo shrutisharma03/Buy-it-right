@@ -1,10 +1,10 @@
-BUY IT RIGHT 
+# BUY IT RIGHT 
 
-ABOUT THE PROJECT: 
+## ABOUT THE PROJECT: 
 
 Buy It Right is a board game based on the economic idea of a monopoly. Four players move about the board, purchasing and exchanging properties with fake money, developing properties with houses and hotels, landing on community chest and chance cards, and collecting rent from their opponents. A single player's ultimate goal is to bankrupt every other player by draining their financial accounts and acquiring maximum properties and real estate. The end goal of the project is to create a game that teaches individuals about money, finance, and life skills. This game teaches students how to strategize, plan ahead, do math, negotiate with others, and deal with winning and losing situations, among other things. For the implementation we require basic components such as Game Components, Game Modules and Functions, Wealth Management and a Game Board. For future enhancements, concepts of equity and suggestive module can be introduced. 
 
-FEATURES OF THE GAME :
+## FEATURES OF THE GAME :
 
 1. UI - Game Board consisting of property spaces and all the various cards. 
 2. Game Components - Players, Houses, Hotels, Places, Bank, Jail, and Chance Cards. 
@@ -13,14 +13,14 @@ FEATURES OF THE GAME :
 5. Game Modules - Buying Properties, Mortgaging Properties, Paying Mortgage, Paying Tax, Rolling Dice, Bidding in Auction, Building Property, Paying Rent.
 
 
-PROCESS TO DEPLOY :
+## PROCESS TO DEPLOY :
 
 1. Download the zip folder of the project.
 2. Deploy it on the sites page of netlify.
 3. Deployed Link : https://junihers-group1-buyitright.netlify.app/
 
 
-SNIPPETS FROM THE PROJECT:
+## SNIPPETS FROM THE PROJECT:
 
 HOMEPAGE
 ![homepage](https://user-images.githubusercontent.com/72298689/161780695-f81c72af-99b6-461d-b57c-51fda1f00048.jpg)
